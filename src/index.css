@@ -1,0 +1,83 @@
+/* index.css or tailwind.css */
+
+/* Import Tailwind's base styles */
+@tailwind base;
+
+/* Import Tailwind's component styles */
+@tailwind components;
+
+/* Import Tailwind's utility classes */
+@tailwind utilities;
+
+
+@font-face {
+  font-family: anzo5;
+  src: url(./assets/file1.woff2);
+}
+
+@font-face {
+  font-family: anzo1;
+  src: url(./assets/file2.woff2);
+}
+
+@font-face {
+  font-family: anzo4;
+  src: url(./assets/file3.woff2);
+}
+
+@font-face {
+  font-family: anzo2;
+  src: url(./assets/file4.woff2);
+}
+
+@font-face {
+  font-family: anzo3;
+  src: url(./assets/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2);
+}
+
+@font-face {
+  font-family: alag-anzo;
+  src: url(./assets/madefor-text.var.original.woff2);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+  color: #ffffff;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+
+}
+
+#page1-in{
+  position: relative;
+  perspective: 1000px;
+}
+
+#tiltdiv{
+  /* background-color: red; */
+  width: fit-content;
+}
+
+#section2{
+  position: relative;
+  perspective: 1000px;
+}
+
+.rotateText{
+  transform-origin: 100% 100%;
+}
+
+#section3{
+  position: relative;
+  perspective: 1000px;
+}
+
+.rotateText2{
+  transform-origin: 100% 100%;
+}
